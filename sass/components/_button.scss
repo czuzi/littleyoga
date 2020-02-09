@@ -3,16 +3,16 @@
   &:visited {
     text-transform: uppercase;
     text-decoration: none;
-    padding: 15px 40px;
+    padding: 1.5rem 4rem;
     display: inline-block;
-    border-radius: 100px;
+    border-radius: 10rem;
     transition: all 0.2s;
     position: relative;
   }
 
   &:hover {
-    transform: translateY(-2px);
-    box-shadow: 10px 10px 20px rgba($color-black, 0.2);
+    transform: translateY(-0.2rem);
+    box-shadow: 1rem 1rem 2rem rgba($color-black, 0.2);
 
     &::after {
       transform: scaleX(1.5) scaleY(1.4);
@@ -22,7 +22,7 @@
 
   &:active {
     transform: translateY(-1px);
-    box-shadow: 6px 6px 10px rgba($color-black, 0.2);
+    box-shadow: 0.6rem 0.6rem 1rem rgba($color-black, 0.2);
   }
 
   &--white {
@@ -39,7 +39,7 @@
     display: inline-block;
     width: 100%;
     height: 100%;
-    border-radius: 100px;
+    border-radius: 10rem;
     position: absolute;
     top: 0;
     left: 0;

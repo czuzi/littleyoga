@@ -1,8 +1,8 @@
 body {
-  padding: 10px;
+  padding: 1rem;
   font-family: "Lato", sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 1.7;
   color: $color-gray-dark;
 }
@@ -11,14 +11,14 @@ body {
   color: $color-white;
   text-transform: uppercase;
   backface-visibility: hidden;
-  margin-bottom: 40px;
+  margin-bottom: 4rem;
 
   &--main {
     display: block;
-    font-size: 60px;
+    font-size: 6rem;
     font-weight: 400;
-    letter-spacing: 35px;
-    text-indent: 35px;
+    letter-spacing: 3.5rem;
+    text-indent: 3.5rem;
     animation-name: moveInLeft;
     animation-duration: 0.7s;
     animation-timing-function: ease-out;
@@ -26,10 +26,10 @@ body {
 
   &--sub {
     display: block;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 700;
-    letter-spacing: 17.4px;
-    text-indent: 17.4px;
+    letter-spacing: 1.74rem;
+    text-indent: 1.74rem;
     animation-name: moveInTop;
     animation-duration: 0.8s;
     animation-timing-function: ease-out;
