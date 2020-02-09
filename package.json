@@ -1,0 +1,22 @@
+{
+  "name": "littleyoga",
+  "version": "1.0.0",
+  "description": "Based on a Udemy course, and inspired by some friends yoga class.",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/czuzi/littleyoga.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/czuzi/littleyoga/issues"
+  },
+  "homepage": "https://github.com/czuzi/littleyoga#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
